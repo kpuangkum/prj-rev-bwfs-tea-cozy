@@ -1,0 +1,169 @@
+body {
+    font-family: "Helvetica", sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    opacity: 0.9;
+    color: seashell;
+    background-color: black;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    padding-top: 17px;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: -20px;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center; 
+}
+
+header {
+    width: 100%;
+    height: 69px;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+}
+
+.logo img {
+    height: 50px;
+    margin: 10px 0 0 10px;
+}
+
+header nav {
+    position: fixed;
+    right: 20px;
+    top: 25px;
+}
+
+nav span a {
+    padding: 20px 10px;
+    text-decoration: underline;
+    color: seashell;
+}
+
+#container {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#content-top {
+    background-image: url("../../resources/images/img-mission-background.jpg");
+    width: 1200px;
+    height: 700px;
+    margin-top: 70px;
+}
+
+.title-center {
+    position: relative;
+    width: 1200px;
+    top: 300px;
+    height: 100px;
+    background-color: black;
+}
+
+#content-middle {
+    width: 1200px;
+    height: 700px;
+    /*background-color: pink;*/
+    padding-top: 60px;
+}
+
+.title-middle {
+    width: 1000px;
+    margin: 0 auto;
+    /*background-color: white;*/
+}
+
+#tea {
+    width: 1000px;
+    height: auto;
+    /*background-color: yellow;*/
+    margin: 0 auto;
+}
+
+.tea-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.tea-images img{
+    height: 200px;
+    margin: 10px;
+    display: block;
+}
+
+.tea-images span {
+    display: block;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#content-bottom {
+    background-image: url("../../resources/images/img-locations-background.jpg");
+    height: 500px;
+    padding-top: 5px;
+}
+
+#content-bottom .content-bottom {
+    margin: auto;
+    width: 1100px;
+}
+
+.location {
+    opacity: 1.0;
+    padding: 10px;
+    margin: 5px 20px;
+    background-color: black;
+    flex-basis: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content-bottom {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content-bottom.location {
+    padding: 5px;
+}
+
+p {
+    text-align: center;
+}
+
+#info {
+    height: : 200px;
+    padding-top: 70px;
+}
+
+#copyright h5 {
+    text-align: left;
+    font-weight: normal;
+}
